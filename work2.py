@@ -1,6 +1,6 @@
-base = float(input("กรอกความยาวฐาน: "))
-height = float(input("กรอกความสูง: "))
+width = float(input("กรอกความกว้าง: "))
+length = float(input("กรอกความยาว: "))
 
-area = 0.5 * base * height
+area = width * length
 
-print("พื้นที่สามเหลี่ยม =", area)
+print("พื้นที่สี่เหลี่ยมมุมฉาก =", area)
